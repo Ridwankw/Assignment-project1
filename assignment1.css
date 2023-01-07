@@ -141,6 +141,10 @@ header{
 .section2-div i, h3, p{
     margin-bottom: 15px;
 }
+.section2-div i{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.7);
+}
 
 
 .section2-div1{
