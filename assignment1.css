@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans'
+}
+/*Header Section Start*/
+header{
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 808px;
+    margin-top: 0;
+    margin-bottom: 130px;
+}
+.header-text{
+    text-align: right;
+    margin: 0px 230px 0px 845px;
+    padding-top: 216px;
+    
+}
+
+.header-text h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+
+}
+.header-text p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #444343;
+}
+.header-text h1, p, button{
+    margin-bottom: 20px;
+}
+.header-text button{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border: none;
+    width: 160px;
+    height: 64px;
+
+    color: #FFFFFF;
+    background: #F15B22;
+    border-radius: 5px;
+}
+/*Header Section End*/
+/*Section1 Start*/
+
+.section1{ 
+    margin-top: 130px;
+}
+
+.section1-div1{
+    display: flex;
+    justify-content: ;
+    text-align: center;
+    margin: 100px;
+}
+
+
+.section1-text{
+    text-align: left;
+    padding: 370px 294px 206px 115px;
+}
+
+.section1-text h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+
+}
+
+.section1-text p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/*Section1 End*/
+
+/*Section2 Start*/
+.section2{
+    margin: 20px 230px;
+}
+.section2 h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.section2-div{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.section2-div h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+
+}
+.section2-div p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+.section2-div i, h3, p{
+    margin-bottom: 15px;
+}
+
+
+.section2-div1{
+    margin: 100px;
+    height: 200px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png)no-repeat;
+    border-radius: 8px;
+    
+}
+.section2-div1-text{
+    padding: 59px 59px 617px 64px;
+}
+.section2-div1-text h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.section2-div1-text button{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
+    padding: 10px;
+    border: navy;
+    border-radius: 5px;
+}
+/*Section2 End*/
+
+/*Section Three Start*/
+.section3{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.text3 h1{
+    font-size: 40px;
+    line-height: 10px;
+    margin-bottom: 30px;
+}
+.text3 p{
+    
+    width: 670px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.ser1, .ser2{
+    width: 100%;
+    overflow: hidden;
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.ser2{
+    padding: 30px;
+}
+.service i{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.service h1{
+    color: rgba(0, 0, 0, 0.9);
+}
+.service p{
+    color: rgba(0, 0, 0, 0.6);
+}
+.ser1 div:hover{
+    background-color: #8293ff;
+    color: white;
+}
+.ser1 div:hover i{
+    color: white;
+}
+.ser1 div:hover h1{
+    color: white;
+}
+.ser1 div:hover p{
+    color: white;
+}
+.ser2 div:hover{
+    background-color: #8293ff;
+    color: white;
+}
+.ser2 div:hover i{
+    color: white;
+}
+.ser2 div:hover h1{
+    color: white;
+}
+.ser2 div:hover p{
+    color: white;
+}
+
+/*Section Three End*/
+
+/* Footer Start */
+footer{
+    width: 100%;
+    height: 577px;
+    background: #151414;
+}
+.footer{
+    margin: 142px 205px 117px 254px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 200px;
+}
+.footer-text h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+.footer-text p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.social-icon ul{
+    display: flex;
+}
+.social-icon ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+ form{
+    
+ }
+ form h3, input, .btm{
+    margin-bottom: 20px;
+    
+ }
+
+.form h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+.form input{
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #F3F3F3;
+}
+.form .btm{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F15B22;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    }
+
+
+/* Footer End */
